@@ -1,8 +1,9 @@
 {
-  "name": "demo",
+  "name": "demo-vue-cli-tree-shaking",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "cz": "npx git-cz",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -14,6 +15,8 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
